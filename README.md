@@ -1,7 +1,9 @@
 # train_ticket_system
 
 > A Vue.js and flask  project
+
 > front-end为前端文件
+
 > rear-end为后台文件
 
 
@@ -9,9 +11,13 @@
 ## 系统开发平台
 
 开发工具：vs code ，pycham
+
 开发语言：python，html，css，javascript
+
 数据库：MySQL
+
 前端框架：Vue.js
+
 后台框架：flask
 
 
