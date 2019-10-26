@@ -1,0 +1,64 @@
+//放置整站的全局样式
+
+// PC端特有样式
+@media (min-width: 768px) {}
+
+//移动端特有样式
+@media(max-width: 768px) {}
+
+/*字体抗锯齿渲染*/
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*隐藏垂直&水平滚动条*/
+body {
+  overflow-y: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0 !important;
+}
+
+/*禁用选中*/
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*隐藏垂直滚动条*/
+body::-webkit-scrollbar {
+  width: 0 !important
+}
+
+.fixed-bottom,
+.fixed-top {
+  position: fixed;
+  position: sticky;
+  /*right: 0;*/
+  /*left: 0;*/
+  z-index: 1030;
+}
+
+.fixed-bottom {
+  bottom: 0;
+}
+
+.fixed-top {
+  top: 0;
+}
+
+.table:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+
+.pagination {
+  float: right;
+  margin-right: 8.5vw;
+  margin-top: 2vh;
+}
